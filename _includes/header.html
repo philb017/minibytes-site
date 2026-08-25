@@ -1,0 +1,21 @@
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}"><span class="brand-mark" aria-hidden="true"></span>{{ site.title }}</a>
+    <nav class="site-nav">
+      <ul>
+        {% for group in site.nav %}
+        <li>
+          <details>
+            <summary>{{ group.title }}</summary>
+            <ul class="dropdown">
+              {% for item in group.items %}
+              <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </details>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

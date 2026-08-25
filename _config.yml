@@ -1,0 +1,75 @@
+title: minibytes
+tagline: IT notes, commands & config snippets
+hero_title: Practical notes for real systems
+description: >-
+  Practical sysadmin reference notes: hardware configs, Windows/Linux
+  commands, and the occasional detour into kitesurfing.
+url: "https://minibytes.com.au"
+baseurl: ""
+
+markdown: kramdown
+highlighter: rouge
+
+permalink: /:year/:month/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Top navigation. "Hardware" and "Software" are dropdown groups of
+# category archive pages (see /category/*.md); "Notes" links straight
+# to standalone pages.
+nav:
+  - title: Hardware
+    items:
+      - title: Avaya Switch
+        url: /category/avaya-switch/
+      - title: Cisco Switch
+        url: /category/cisco-switch/
+      - title: Fortigate
+        url: /category/fortigate/
+      - title: Mikrotik
+        url: /category/mikrotik/
+      - title: Ubiquiti
+        url: /category/ubiquiti/
+  - title: Software
+    items:
+      - title: AntiMalware
+        url: /category/antimalware/
+      - title: Centos
+        url: /category/centos/
+      - title: Office 365
+        url: /category/office-365/
+      - title: Other
+        url: /category/other/
+      - title: Powershell
+        url: /category/powershell/
+      - title: VMware
+        url: /category/vmware/
+      - title: Windows
+        url: /category/windows/
+  - title: Notes
+    items:
+      - title: Photo Gallery
+        url: /gallery/
+      - title: Kitesurfing
+        url: /kitesurfing/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules

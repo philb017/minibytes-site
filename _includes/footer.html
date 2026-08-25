@@ -1,0 +1,29 @@
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <h3>{{ site.title }}</h3>
+      <p>{{ site.description | default: site.tagline }}</p>
+    </div>
+    <div>
+      <h3>Categories</h3>
+      <ul>
+        {% for group in site.nav %}
+          {% for item in group.items %}
+            {% unless item.url contains '/gallery/' or item.url contains '/kitesurfing/' %}
+            <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+            {% endunless %}
+          {% endfor %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div>
+      <h3>Links</h3>
+      <ul>
+        <li><a href="{{ '/feed.xml' | relative_url }}">RSS Feed</a></li>
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap copyright">&copy; {{ site.title }} 2011&ndash;{{ site.time | date: "%Y" }}</div>
+</footer>
