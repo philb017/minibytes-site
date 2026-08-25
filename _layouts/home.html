@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<section class="hero">
+  <h1>{{ site.hero_title }}</h1>
+  <p>{{ site.description | default: site.tagline }}</p>
+</section>
+<div class="post-list">
+  {% for post in site.posts %}
+  <article class="post-summary">
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p class="meta">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
+      {% if post.category %}<a class="cat-tag {{ post.category | slugify | prepend: 'cat-' }}" href="{{ post.category | slugify | prepend: '/category/' | append: '/' | relative_url }}">{{ post.category }}</a>{% endif %}
+    </p>
+    {% if post.excerpt %}<p class="excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>{% endif %}
+  </article>
+  {% endfor %}
+</div>
