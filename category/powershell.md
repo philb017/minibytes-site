@@ -1,6 +1,6 @@
 ---
 layout: category
-title: "Powershell"
-cat: "Powershell"
+title: "PowerShell"
+cat: "PowerShell"
 permalink: /category/powershell/
 ---

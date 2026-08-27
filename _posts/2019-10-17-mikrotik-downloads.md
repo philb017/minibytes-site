@@ -1,7 +1,7 @@
 ---
 title: "Mikrotik Downloads"
 date: 2019-10-17
-category: Mikrotik
+category: MikroTik
 ---
 
 - [Mikrotik downloads](https://mikrotik.com/download)

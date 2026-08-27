@@ -1,6 +1,6 @@
 ---
 layout: category
-title: "Mikrotik"
-cat: "Mikrotik"
+title: "MikroTik"
+cat: "MikroTik"
 permalink: /category/mikrotik/
 ---

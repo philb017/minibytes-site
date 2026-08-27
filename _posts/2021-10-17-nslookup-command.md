@@ -1,7 +1,7 @@
 ---
 title: "NSLookup Command"
 date: 2021-10-17
-category: Other
+category: Utilities
 ---
 
 Displays information you can use to diagnose Domain Name System (DNS) infrastructure.

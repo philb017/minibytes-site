@@ -1,7 +1,7 @@
 ---
 title: "Screenly OSE"
 date: 2019-10-17
-category: Other
+category: Utilities
 ---
 
 Download the image from the GitHub releases page and flash it with balenaEtcher.

@@ -1,7 +1,7 @@
 ---
 title: "Eset Antivirus"
 date: 2021-10-16
-category: AntiMalware
+category: Security
 ---
 
 - [ESET Business Account login](https://eba.eset.com/)

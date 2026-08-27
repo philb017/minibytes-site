@@ -1,7 +1,7 @@
 ---
 title: "Domain Management Websites"
 date: 2021-10-17
-category: Other
+category: Utilities
 ---
 
 Useful tools for domain and DNS diagnostics.

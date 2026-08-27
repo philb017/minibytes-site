@@ -5,7 +5,7 @@
       <ul>
         {% for group in site.nav %}
         <li>
-          <details>
+          <details name="nav-group">
             <summary>{{ group.title }}</summary>
             <ul class="dropdown">
               {% for item in group.items %}

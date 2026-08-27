@@ -32,40 +32,40 @@ defaults:
 # category archive pages (see /category/*.md); "Notes" links straight
 # to standalone pages.
 nav:
-  - title: Hardware
+  - title: Networking
     items:
-      - title: Avaya Switch
-        url: /category/avaya-switch/
-      - title: Cisco Switch
-        url: /category/cisco-switch/
-      - title: Fortigate
+      - title: FortiGate
         url: /category/fortigate/
-      - title: Mikrotik
+      - title: MikroTik
         url: /category/mikrotik/
       - title: Ubiquiti
         url: /category/ubiquiti/
-  - title: Software
-    items:
-      - title: AntiMalware
-        url: /category/antimalware/
-      - title: Centos
-        url: /category/centos/
-      - title: Office 365
-        url: /category/office-365/
       - title: Other
         url: /category/other/
-      - title: Powershell
+  - title: Systems
+    items:
+      - title: Containers
+        url: /category/containers/
+      - title: Linux
+        url: /category/linux/
+      - title: Security
+        url: /category/security/
+      - title: Virtualization
+        url: /category/virtualization/
+  - title: Microsoft
+    items:
+      - title: M365
+        url: /category/m365/
+      - title: PowerShell
         url: /category/powershell/
-      - title: VMware
-        url: /category/vmware/
       - title: Windows
         url: /category/windows/
-  - title: Notes
+  - title: Off Topic
     items:
-      - title: Photo Gallery
-        url: /gallery/
       - title: Kitesurfing
         url: /kitesurfing/
+      - title: Gallery
+        url: /gallery/
 
 exclude:
   - Gemfile

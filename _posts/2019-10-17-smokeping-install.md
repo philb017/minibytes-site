@@ -1,7 +1,7 @@
 ---
 title: "Smokeping Install"
 date: 2019-10-17
-category: Centos
+category: Linux
 ---
 
 Start with a minimal install of CentOS 7.

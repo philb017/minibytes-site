@@ -104,7 +104,7 @@ a:hover { text-decoration: underline; }
   flex-shrink: 0;
 }
 
-.site-nav ul {
+.site-nav > ul {
   list-style: none;
   display: flex;
   gap: 2px;
@@ -173,7 +173,7 @@ a:hover { text-decoration: underline; }
 }
 
 @media (max-width: 640px) {
-  .site-nav ul { flex-direction: column; width: 100%; }
+  .site-nav > ul { flex-direction: column; width: 100%; }
   .dropdown { position: static; box-shadow: none; margin-top: 4px; animation: none; }
 }
 
@@ -254,18 +254,18 @@ h2 { font-size: 1.15rem; font-weight: 600; letter-spacing: -0.01em; margin: 0; }
 .meta a.cat-tag:hover { text-decoration: none; filter: brightness(1.08); }
 
 /* Per-category solid colors */
-.cat-avaya-switch  { --cat: #d97706; }
-.cat-cisco-switch  { --cat: #0891b2; }
 .cat-fortigate     { --cat: #dc2626; }
 .cat-mikrotik      { --cat: #0d9488; }
 .cat-ubiquiti      { --cat: #0ea5e9; }
-.cat-antimalware   { --cat: #e11d48; }
-.cat-centos        { --cat: #8b5cf6; }
-.cat-office-365    { --cat: #f97316; }
-.cat-other         { --cat: #64748b; }
+.cat-other         { --cat: #0891b2; }
+.cat-containers    { --cat: #2496ed; }
+.cat-linux         { --cat: #8b5cf6; }
+.cat-security      { --cat: #e11d48; }
+.cat-virtualization { --cat: #16a34a; }
+.cat-m365          { --cat: #f97316; }
 .cat-powershell    { --cat: #2563eb; }
-.cat-vmware        { --cat: #16a34a; }
 .cat-windows       { --cat: #6366f1; }
+.cat-utilities     { --cat: #64748b; }
 
 .excerpt { margin: 12px 0 0; color: var(--fg); font-size: 0.96rem; }
 

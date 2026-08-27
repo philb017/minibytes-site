@@ -1,6 +1,6 @@
 ---
 layout: category
-title: "Fortigate"
-cat: "Fortigate"
+title: "FortiGate"
+cat: "FortiGate"
 permalink: /category/fortigate/
 ---
